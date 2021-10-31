@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Шапка страницы -->
+    <header>
+      <div class="container main-nav">
+        <nav class="main-nav">
+          <a class="WebStudio-header" href="./index.html"
+            ><span>Web</span>Studio</a
+          >
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item"><a href="#" class="link current">Портфолио</a></li>
+            <li class="item"><a href="#" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="#" class="link connection">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="#" class="link connection">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Уникальный контент страницы -->
+    <main>
+      <section class="portfolio">
+        <div class="container">
+          <h1 class="portfolio-title">portfolio</h1>
+          <ul class="list buttons-portfolio">
+            <li class="item">
+              <button class="buttons-portfolio button-active" type="button">
+                Все
+              </button>
+            </li>
+            <li class="item">
+              <button class="buttons-portfolio" type="button">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button class="buttons-portfolio" type="button">
+                Приложения
+              </button>
+            </li>
+            <li class="item">
+              <button class="buttons-portfolio" type="button">Дизайн</button>
+            </li>
+            <li class="item">
+              <button class="buttons-portfolio" type="button">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="list list-portfolio">
+            <li class="flex-element">
+              <img src="./images/tehnokrak.jpg" alt="Технокряк" width="370" />
+              <div class="description-element">
+                <h2 class="list-name">Технокряк</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img
+                src="./images/New-Orlean-vs-Golden-Star.jpg"
+                alt="New Orlean vs Golden Star"
+                width="370"
+              />
+              <div class="description-element">
+                <h2 class="list-name">Постер New Orlean vs Golden Star</h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img src="./images/seafood.jpg" alt="Seafood" width="370" />
+              <div class="description-element">
+                <h2 class="list-name">Ресторан Seafood</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img src="./images/prime.jpg" alt="Prime" width="370" />
+              <div class="description-element">
+                <h2 class="list-name">Проект Prime</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img src="./images/Boxes.jpg" alt="Boxes" width="370" />
+              <div class="description-element">
+                <h2 class="list-name">Проект Boxes</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img
+                src="./images/Inspiration-has-no-Borders.jpg"
+                alt="Inspiration-has-no-Borders"
+                width="370"
+              />
+              <div class="description-element">
+                <h2 class="list-name" lang="en">Inspiration has no Borders</h2>
+                <p>Веб-сайт</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img
+                src="./images/Limited-Edition.jpg"
+                alt="Limited Edition"
+                width="370"
+              />
+              <div class="description-element">
+                <h2 class="list-name">Издание Limited Edition</h2>
+                <p>Дизайн</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img src="./images/LAB.jpg" alt="Проект LAB" width="370" />
+              <div class="description-element">
+                <h2 class="list-name">Проект LAB</h2>
+                <p>Маркетинг</p>
+              </div>
+            </li>
+            <li class="flex-element">
+              <img
+                src="./images/Growing-Business.jpg"
+                alt="Growing Business"
+                width="370"
+              />
+              <div class="description-element">
+                <h2 class="list-name" lang="en">Growing Business</h2>
+                <p>Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--Нижний колонтитул-->
+    <footer class="section-footer">
+      <div class="container">
+        <a class="WebStudio-footer" href="./index.html"
+          >Web<span>Studio</span></a
+        >
+        <address class="main-address">
+          <ul class="list footer">
+            <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+            <li><a href="#">info@devstudio.com</a></li>
+            <li><a href="#">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
